@@ -1,0 +1,65 @@
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+	.font-class{
+		font-size:10px;
+	}
+	.font-roboto{
+	font-family: 'Roboto Condensed', sans-serif;
+	}
+	.center-text{
+	text-align:center !important;
+	}
+	.container{
+	background-color:E0FBFC;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	.font-class{
+		font-size:25px;
+	}
+	.font-roboto{
+	font-family: 'Roboto Condensed', sans-serif;
+	}
+	.center-text{
+	text-align:center !important;
+	}
+	.container{
+	background-color:E0FBFC;
+	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+	.font-class{
+		font-size:50px;
+	}
+	.font-roboto{
+	font-family: 'Roboto Condensed', sans-serif;
+	}
+	.center-text{
+	text-align: center !important;
+	}
+	.container{
+	background-color:E0FBFC;
+	}
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+	.font-class{
+		font-size:150px;
+	}
+	.font-roboto{
+	font-family: 'Roboto Condensed', sans-serif;
+	}
+	.center-text{
+		text-align:center !important;
+	}
+	.container{
+	background-color:E0FBFC;
+	}
+}
+
