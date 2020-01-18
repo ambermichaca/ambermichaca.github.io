@@ -1,4 +1,29 @@
-// Small devices (landscape phones, 576px and up)
+.center-text{
+	text-align: center !important; 
+	}
+
+.center-text{
+	text-align: center;
+}
+.blue{
+	background-color:#AFD0BF !important;
+}
+
+.row.no-gutters {
+  margin-right:0;
+  margin-left:0;
+}
+.site{
+	background-color:#AFD0BF
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right:0;
+  padding-left:0;
+}
+
+img{height:900px; width:900px; }
+
 @media (min-width: 576px) {
 	.font-class{
 		font-size:10px;
@@ -6,15 +31,11 @@
 	.font-roboto{
 	font-family: 'Roboto Condensed', sans-serif;
 	}
-	.center-text{
-	text-align:center !important;
-	}
 	.container{
-	background-color:E0FBFC;
+	background-color:#AFD0BF;
 	}
 }
 
-// Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 	.font-class{
 		font-size:25px;
@@ -22,15 +43,11 @@
 	.font-roboto{
 	font-family: 'Roboto Condensed', sans-serif;
 	}
-	.center-text{
-	text-align:center !important;
-	}
 	.container{
-	background-color:E0FBFC;
+	background-color:#AFD0BF;
 	}
 }
 
-// Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
 	.font-class{
 		font-size:50px;
@@ -38,16 +55,13 @@
 	.font-roboto{
 	font-family: 'Roboto Condensed', sans-serif;
 	}
-	.center-text{
-	text-align: center !important;
-	}
 	.container{
-	background-color:E0FBFC;
+	background-color:#AFD0BF;
 	}
 
  }
 
-// Extra large devices (large desktops, 1200px and up)
+
 @media (min-width: 1200px) {
 	.font-class{
 		font-size:150px;
@@ -56,10 +70,13 @@
 	font-family: 'Roboto Condensed', sans-serif;
 	}
 	.center-text{
-		text-align:center !important;
+		margin:0;
 	}
 	.container{
-	background-color:E0FBFC;
+	background-color:#AFD0BF;
 	}
 }
+
+
+
 
